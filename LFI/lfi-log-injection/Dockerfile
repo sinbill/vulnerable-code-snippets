@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:7.2-apache
+FROM php:7.4.21-apache
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2
