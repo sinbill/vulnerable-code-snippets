@@ -1,4 +1,4 @@
-FROM ruby:3
+FROM ruby:3.3.7
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
